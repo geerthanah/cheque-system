@@ -1,4 +1,5 @@
-# Cheque System
+Cheque System
+--------
 
 A simple cheque management system built with an MVC architecture.
 
