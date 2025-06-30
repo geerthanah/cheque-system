@@ -12,6 +12,7 @@ A simple cheque management system built with an MVC architecture.
 - User authentication and role-based access control
 
 
-## Liscense
+Liscense
+--------
 
 This project is licensed under the MIT License 
