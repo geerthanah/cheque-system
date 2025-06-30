@@ -1,0 +1,41 @@
+# Ignore composer vendor folder if using Composer for other dependencies
+/vendor/
+
+# Environment files
+.env
+
+# Logs and cache
+/application/logs/*
+/application/cache/*
+!application/logs/index.html
+!application/cache/index.html
+
+# IDE/editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node modules (if you use frontend tools)
+node_modules/
+
+# Build output folders (if you use any frontend build tools)
+dist/
+public/js/
+public/css/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# PHPUnit and test results
+phpunit.xml
+phpunit.xml.dist
+coverage/
